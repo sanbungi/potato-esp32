@@ -33,3 +33,11 @@ License: MIT
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE
 ```
+
+## Title lettering (front silkscreen "ESP32 HTTP")
+
+Font: **Chewy** by Astigmatic (Google Fonts) — Apache License 2.0  
+https://github.com/google/fonts/tree/main/apache/chewy
+
+文字はシルク用の多角形に変換済み（基板ファイルにフォント依存なし）。
+1 文字ずつ傾き・上下ずれを付け、ポテトの芽に見立てた小穴を開けている。
