@@ -7098,7 +7098,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-06104"
 			(at 87.63 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7108,7 +7108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
+		(property "Footprint" "esp32s3_http:SW_TS-06104"
 			(at 87.63 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7802,7 +7802,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "TS-06104"
 			(at 120.65 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7812,7 +7812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC6xxJ"
+		(property "Footprint" "esp32s3_http:SW_TS-06104"
 			(at 120.65 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8205,7 +8205,7 @@
 				)
 			)
 		)
-		(property "Value" "Jack-DC"
+		(property "Value" "MJ-179PH"
 			(at 153.67 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8215,7 +8215,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
+		(property "Footprint" "esp32s3_http:DCJack_MJ-179PH"
 			(at 154.94 30.226 0)
 			(hide yes)
 			(show_name no)

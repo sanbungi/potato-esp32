@@ -1,0 +1,163 @@
+(footprint "SW_TS-06104"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD tactile switch 6.1x6.1mm H4.3mm, XiaMen JinBeili TS-06104 (Akizuki 115969). Land pattern per datasheet P.C.B LAYOUT: 10.0/6.4 x 5.5/3.5")
+	(tags "tactile switch SMD 6x6 TS-06104")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "8458384d-8b85-4aa4-a9a5-b136ab91b75c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "SW_TS-06104"
+		(at 0 4.2 0)
+		(layer "F.Fab")
+		(uuid "257cba2b-73b5-4a29-bc34-948cb9d1b686")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Datasheet" "https://akizukidenshi.com/goodsaffix/TS-06104.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d2e72d7-ca84-4ed4-9b93-814446ef14fe")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a4aa716-e44b-47d2-a162-bb01d4f09293")
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers yes)
+	(fp_line
+		(start -3.16 -1.4)
+		(end -3.16 1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9325251-c9d1-4a68-8995-ee3eab0a081a")
+	)
+	(fp_line
+		(start -2.7 -3.16)
+		(end 2.7 -3.16)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f274eaab-d9a0-485d-88d2-607435aaccf5")
+	)
+	(fp_line
+		(start -2.7 3.16)
+		(end 2.7 3.16)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "79a6ab3c-97ba-4195-91e4-506ae07546bc")
+	)
+	(fp_line
+		(start 3.16 -1.4)
+		(end 3.16 1.4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "47efd368-405d-4db0-a159-ec52562f2228")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ca4f7777-d860-4617-8a36-1333399126d1")
+	)
+	(fp_rect
+		(start -5.25 -3.3)
+		(end 5.25 3.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "6cc938c4-a017-49ee-a9db-d877ce62a594")
+	)
+	(fp_rect
+		(start -3.05 -3.05)
+		(end 3.05 3.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "fe50e375-257e-4b04-8176-d34dcd3303e6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1b61422e-e573-4c58-a20d-41530a90c15b")
+	)
+	(pad "1" smd rect
+		(at -4.1 -2.25)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bc135af2-302c-4913-98ac-c244f1d0653d")
+	)
+	(pad "1" smd rect
+		(at 4.1 -2.25)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b3b732f-5da0-4901-bdbe-278754c33481")
+	)
+	(pad "2" smd rect
+		(at -4.1 2.25)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5f95e7a-8bdc-49b4-9b89-40abd0a9b8f4")
+	)
+	(pad "2" smd rect
+		(at 4.1 2.25)
+		(size 1.8 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a8cbc84b-ac98-45f7-aeeb-ec4c562811bc")
+	)
+	(embedded_fonts no)
+)
