@@ -8521,6 +8521,286 @@
 		(at 130.81 76.2)
 		(uuid "bad93a21-b794-4557-b8a4-cb432577f19a")
 	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 205.74 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a2e8617-2650-4b07-bd05-43f95702f667")
+		(property "Reference" "C11"
+			(at 208.28 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF/6.3V OS-CON"
+			(at 208.28 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 205.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://akizukidenshi.com/catalog/g/g108293/"
+			(at 205.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panasonic OS-CON 6SEPC1000MD (Akizuki 108293), D8 P3.5, ESR 18mohm"
+			(at 205.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "6SEPC1000MD"
+			(at 205.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3de59966-3cf2-42f2-9ab1-4f76e064a28a")
+		)
+		(pin "2"
+			(uuid "d0dd270e-9a68-4328-93ad-7e17767caa30")
+		)
+		(instances
+			(project "esp32s3_http"
+				(path "/16b3fc6c-f581-46a2-9d81-3ee8f97e9729"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VDD33"
+		(shape input)
+		(at 205.74 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f1e7d04-fe20-4853-9252-20e1835b4492")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.74 71.9700 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 205.74 85.09 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c55149bf-72ef-4d2d-a478-83ea171a7427")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.74 88.7900 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 66.04 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49b2073d-1114-4a94-a26a-18ada94734bc")
+		(property "Reference" "C12"
+			(at 63.50 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1000uF/6.3V OS-CON"
+			(at 63.50 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 66.04 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://akizukidenshi.com/catalog/g/g108293/"
+			(at 66.04 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Panasonic OS-CON 6SEPC1000MD (Akizuki 108293), D8 P3.5, ESR 18mohm"
+			(at 66.04 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "6SEPC1000MD"
+			(at 66.04 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d367cc9-8b22-46d8-82e5-a97cf44a3207")
+		)
+		(pin "2"
+			(uuid "7d63d244-d3e9-44e7-b325-e3599e9b8a16")
+		)
+		(instances
+			(project "esp32s3_http"
+				(path "/16b3fc6c-f581-46a2-9d81-3ee8f97e9729"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "VDD33"
+		(shape input)
+		(at 66.04 52.07 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c4ee8d6-e3aa-4030-8e37-223ef1a6dfff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 46.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 66.04 59.69 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1eb5fb55-8967-4d80-a168-4c295e06f198")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 63.39 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
