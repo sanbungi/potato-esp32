@@ -5,6 +5,485 @@
 	(uuid "16b3fc6c-f581-46a2-9d81-3ee8f97e9729")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Jack-DC"
 			(pin_names
 				(offset 1.016)
@@ -1241,7 +1720,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Mylib:LXDC55_Akizuki"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3918,7 +4397,7 @@
 	)
 	(global_label "SD_MOSI"
 		(shape input)
-		(at 100.33 96.52 180)
+		(at 100.33 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3928,7 +4407,7 @@
 		)
 		(uuid "197324d1-4cc5-4172-900f-38c979609f02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3015 96.52 0)
+			(at 89.3015 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4302,7 +4781,7 @@
 	)
 	(global_label "SD_CS"
 		(shape input)
-		(at 100.33 81.28 180)
+		(at 100.33 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4312,7 +4791,7 @@
 		)
 		(uuid "4cd375ef-f505-49ca-a437-6693ab56659b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.4182 81.28 0)
+			(at 91.4182 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4564,30 +5043,6 @@
 			)
 		)
 	)
-	(global_label "SD_SCK"
-		(shape input)
-		(at 130.81 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8920830e-7723-48ad-b915-bea62c61525d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.9918 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 52.07 116.84 180)
@@ -4662,7 +5117,7 @@
 	)
 	(global_label "SD_MISO"
 		(shape input)
-		(at 100.33 99.06 180)
+		(at 100.33 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4672,7 +5127,7 @@
 		)
 		(uuid "9080f8fd-28e3-4856-bac6-7201e280570a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3015 99.06 0)
+			(at 89.3015 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5645,7 +6100,7 @@
 				)
 			)
 		)
-		(property "Value" "LF50_TO220"
+		(property "Value" "NJM7805FA"
 			(at 196.85 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5655,7 +6110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Vertical"
 			(at 196.85 20.955 0)
 			(hide yes)
 			(show_name no)
@@ -5667,7 +6122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf"
+		(property "Datasheet" "https://www.nisshinbo-microdevices.co.jp/en/pdf/datasheet/NJM7800_E.pdf"
 			(at 196.85 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5678,7 +6133,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 5.0V, TO-220"
+		(property "Description" "1.5A positive voltage regulator, fixed 5V, TO-220F"
 			(at 196.85 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5808,7 +6263,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N5819"
 			(at 160.02 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5818,7 +6273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 160.02 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5829,7 +6284,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 160.02 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5840,7 +6295,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "1A 40V Schottky barrier diode, DO-41"
 			(at 160.02 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6249,7 +6704,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N5819"
 			(at 175.26 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6259,7 +6714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 175.26 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6270,7 +6725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 175.26 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6281,7 +6736,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "1A 40V Schottky barrier diode, DO-41"
 			(at 175.26 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -6662,31 +7117,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9eecf1cd-e5d8-41a7-b20c-c11915f39658")
 		(property "Reference" "C1"
-			(at 88.9 54.6099 0)
+			(at 82.55 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 88.9 57.1499 0)
+		(property "Value" "22uF/10V"
+			(at 82.55 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 84.1248 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6735,8 +7189,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 49.53 74.93 180)
+		(lib_id "Device:C_Polarized")
+		(at 49.53 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6744,31 +7198,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9fffb27a-fc00-482a-b43b-40e4a4b2c60f")
 		(property "Reference" "C8"
-			(at 53.34 73.6599 0)
+			(at 53.34 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "3.3uF"
-			(at 53.34 76.1999 0)
+		(property "Value" "47uF/10V Ta"
+			(at 53.34 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_HandSolder"
 			(at 48.5648 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6790,7 +7243,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Tantalum, ESR 0.1-1 ohm (LM2940 stability)"
 			(at 49.53 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7333,7 +7786,7 @@
 				)
 			)
 		)
-		(property "Value" "LF33_TO220"
+		(property "Value" "LM2940T-3.3"
 			(at 40.64 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7355,7 +7808,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2940-n.pdf"
 			(at 40.64 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7366,7 +7819,7 @@
 				)
 			)
 		)
-		(property "Description" "Low-drop Voltage Regulator, Io up to 500mA, Fixed Vo 3.3V, TO-220"
+		(property "Description" "1A low dropout regulator, fixed 3.3V, TO-220. Cout >= 22uF, ESR 0.1-1 ohm"
 			(at 40.64 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7417,7 +7870,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N5819"
 			(at 160.02 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7427,7 +7880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal"
 			(at 160.02 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7438,7 +7891,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/88525/1n5817.pdf"
 			(at 160.02 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7449,7 +7902,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "1A 40V Schottky barrier diode, DO-41"
 			(at 160.02 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7602,6 +8055,467 @@
 			(project "esp32s3_http"
 				(path "/16b3fc6c-f581-46a2-9d81-3ee8f97e9729"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "SD_SCK"
+		(shape input)
+		(at 100.33 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac21bcf3-81e7-4f1f-88b4-92aacff7e032")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.9300 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "U0TXD"
+		(shape input)
+		(at 130.81 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3da5ea4-36e5-4762-9e84-7cb942e21325")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.3100 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "U0RXD"
+		(shape input)
+		(at 130.81 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06d4be99-7367-40db-be7c-f61d30986fbe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.3100 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 190.5 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fdb0c8be-c45f-4497-b721-f5afbb6bec0f")
+		(property "Reference" "J3"
+			(at 190.5 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UART0"
+			(at 190.5 139.70000000000002 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 190.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "UART0 debug header (TX, RX, GND)"
+			(at 190.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d51ebe3-54e6-43ad-a6fe-aaee0f4d8c61")
+		)
+		(pin "2"
+			(uuid "69f1e137-c6a2-462c-8a56-8219e70782ae")
+		)
+		(pin "3"
+			(uuid "a0df24d6-c6cb-40c7-b5e9-7d5d60c22c10")
+		)
+		(instances
+			(project "esp32s3_http"
+				(path "/16b3fc6c-f581-46a2-9d81-3ee8f97e9729"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(global_label "U0TXD"
+		(shape input)
+		(at 185.42 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84e61aa1-0a39-481c-acca-04c3ac3c2bfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.9200 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "U0RXD"
+		(shape input)
+		(at 185.42 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "997c1324-dbeb-4aaa-af9a-91a6d7e6764e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.9200 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 185.42 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10b36d77-1e09-47e1-983e-f332eddb20bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.7200 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(no_connect
+		(at 100.33 76.2)
+		(uuid "4ba83621-3273-4e9a-b68b-4d0d2b3c6ccf")
+	)
+	(no_connect
+		(at 100.33 78.74)
+		(uuid "d8ffc768-3055-4f52-8e0e-c2b0174b5cd0")
+	)
+	(no_connect
+		(at 100.33 81.28)
+		(uuid "a6955aaf-65a4-4466-9f4e-bded84286a9e")
+	)
+	(no_connect
+		(at 100.33 83.82)
+		(uuid "fdb59f38-1add-4b60-a629-9da74c38828e")
+	)
+	(no_connect
+		(at 100.33 106.68)
+		(uuid "e53a12dd-1a0f-46bb-bf54-76eb86d7a915")
+	)
+	(no_connect
+		(at 100.33 109.22)
+		(uuid "ed13b568-f4d1-49ce-b974-dc9d3cb04af0")
+	)
+	(no_connect
+		(at 130.81 83.82)
+		(uuid "f2a68866-d16d-4dd1-a9cf-8b4e3d882c26")
+	)
+	(no_connect
+		(at 130.81 86.36)
+		(uuid "99492be2-458e-4fd3-af3e-9b8199b17428")
+	)
+	(no_connect
+		(at 130.81 88.9)
+		(uuid "e457fa96-470d-4d17-abb3-10c3ca78830f")
+	)
+	(no_connect
+		(at 130.81 91.44)
+		(uuid "1af74d78-8950-4067-bfdf-7ccf422ab8cf")
+	)
+	(no_connect
+		(at 130.81 93.98)
+		(uuid "34d4566c-8e5d-4d4b-8c01-9efdde79ab59")
+	)
+	(no_connect
+		(at 130.81 96.52)
+		(uuid "879ee3ff-7f46-4d61-bc81-b634353e69ed")
+	)
+	(no_connect
+		(at 130.81 99.06)
+		(uuid "7012fd32-a797-4ea8-ab25-18ac170d6dc0")
+	)
+	(no_connect
+		(at 130.81 101.6)
+		(uuid "bdb660cc-8018-4f20-9565-690d8fe4871c")
+	)
+	(no_connect
+		(at 130.81 104.14)
+		(uuid "3140909a-0203-4964-b0d8-85fc753bd480")
+	)
+	(no_connect
+		(at 130.81 106.68)
+		(uuid "67829af0-650e-49ee-979a-c497ac8f3e89")
+	)
+	(no_connect
+		(at 130.81 109.22)
+		(uuid "ca37ac26-a39e-4d2d-b9a3-b468fb3ee823")
+	)
+	(no_connect
+		(at 130.81 111.76)
+		(uuid "46433675-9aa4-47c2-825e-589828bd0561")
+	)
+	(no_connect
+		(at 130.81 114.3)
+		(uuid "a04d493a-906f-4d95-ad06-5365f17c5a60")
+	)
+	(no_connect
+		(at 176.53 83.82)
+		(uuid "074c860e-9056-4976-aed7-c83e44bd495a")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 26.67 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "29d7414e-0608-4ddd-a9fc-77e292522a81")
+		(property "Reference" "#FLG01"
+			(at 26.67 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 26.67 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 26.67 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05f90b9f-b02d-4c55-b49c-dcf22e6a04c2")
+		)
+		(instances
+			(project "esp32s3_http"
+				(path "/16b3fc6c-f581-46a2-9d81-3ee8f97e9729"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 181.61 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "b814e79e-d7ef-413c-9434-d9aaae5c3a5f")
+		(property "Reference" "#FLG02"
+			(at 181.61 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 181.61 22.860000000000003 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 181.61 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bb53847-c183-45d0-8635-57adb666b9b0")
+		)
+		(instances
+			(project "esp32s3_http"
+				(path "/16b3fc6c-f581-46a2-9d81-3ee8f97e9729"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
