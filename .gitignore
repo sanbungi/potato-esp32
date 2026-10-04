@@ -1,0 +1,32 @@
+# KiCad lock files
+~*.lck
+*.lck
+
+# KiCad backups / local history / caches
+*-backups/
+.history/
+fp-info-cache
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*~
+_autosave-*
+\#auto_saved_files#
+*.tmp
+
+# Per-user project state (window layout, visible layers etc.)
+*.kicad_prl
+
+# Generated outputs (regenerate from KiCad when needed)
+*.net
+gerber/
+gerbers/
+fabrication/
+production/
+*.zip
+
+# Not part of the project (Claude Code runtime files)
+claude/
+applications/
