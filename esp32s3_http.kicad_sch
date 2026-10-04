@@ -7360,7 +7360,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3uF"
+		(property "Value" "4.7uF/10V"
 			(at 30.48 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7721,7 +7721,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3uF"
+		(property "Value" "1uF/25V"
 			(at 185.42 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7881,7 +7881,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "15pF"
 			(at 55.88 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7962,7 +7962,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3uF"
+		(property "Value" "4.7uF/10V"
 			(at 213.36 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8124,7 +8124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF/10V Ta"
+		(property "Value" "22uF/10V Ta"
 			(at 53.34 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8534,7 +8534,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "15pF"
 			(at 55.88 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9618,7 +9618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 204.47 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
