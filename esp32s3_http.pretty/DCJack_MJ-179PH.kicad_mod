@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "DC jack 2.1mm horizontal, Marushin MJ-179PH (Akizuki 106568). Opening faces -X. Slots per datasheet: J(center) rear, S 6.0mm forward, B side 3.05mm forward / 4.9mm offset (component side view)")
+	(descr "DC jack 2.1mm horizontal, Marushin MJ-179PH (Akizuki 106568). Opening faces -X. Slots per datasheet: J(center) rear, S 6.0mm forward, B side 3.05mm forward / 4.9mm offset (component side view). Pads: 1=J center(+), 2=S sleeve(-), 3=B switch (NC to S, opens on plug insertion)")
 	(tags "DC jack barrel 2.1mm MJ-179PH")
 	(property "Reference" "REF**"
 		(at -10.2 -2.2 0)
@@ -141,7 +141,7 @@
 		(remove_unused_layers no)
 		(uuid "f00cdeef-00f9-4d13-93ce-3ece91f5d828")
 	)
-	(pad "2" thru_hole oval
+	(pad "3" thru_hole oval
 		(at -2.95 4.9)
 		(size 4 2)
 		(drill oval 3 1)
@@ -149,7 +149,7 @@
 		(remove_unused_layers no)
 		(uuid "28ef5088-b412-419b-a252-04b4a5be5c96")
 	)
-	(pad "3" thru_hole oval
+	(pad "2" thru_hole oval
 		(at -6 0)
 		(size 2 4)
 		(drill oval 1 3)
