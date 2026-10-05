@@ -539,7 +539,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "esp32s3_http.net",
-      "plot": "",
+      "plot": "gaba1/",
       "specctra_dsn": "",
       "vrml": ""
     },
